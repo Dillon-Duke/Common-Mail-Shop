@@ -21,7 +21,7 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @ApiModel(value="Prod-propValue对象", description="")
-public class Prod-propValue implements Serializable {
+public class ProdPropValue implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

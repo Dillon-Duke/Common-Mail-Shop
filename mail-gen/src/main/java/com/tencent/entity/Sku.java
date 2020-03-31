@@ -1,9 +1,11 @@
 package com.tencent.entity;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
+
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.io.Serializable;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -64,7 +66,7 @@ public class Sku implements Serializable {
     private String pic;
 
     @ApiModelProperty(value = "sku名称")
-    private String sku-name;
+    private String skuName;
 
     @ApiModelProperty(value = "商品名称")
     private String prodName;

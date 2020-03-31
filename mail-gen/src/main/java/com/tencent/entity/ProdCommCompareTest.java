@@ -49,7 +49,7 @@ public class ProdCommCompareTest implements Serializable {
     private BigDecimal recTime;
 
     @ApiModelProperty(value = "回复时间")
-    private BigDecimal reply-time;
+    private BigDecimal replyTime;
 
     @ApiModelProperty(value = "是否回复 0:未回复  1:已回复")
     private Integer replySts;

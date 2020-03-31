@@ -43,7 +43,7 @@ public class PointChange implements Serializable {
     private Integer state;
 
     @ApiModelProperty(value = "积分数额")
-    private Double points-number;
+    private Double pointsNumber;
 
     @ApiModelProperty(value = "关联订单id")
     private Long orderId;
@@ -55,7 +55,7 @@ public class PointChange implements Serializable {
     private LocalDateTime createTime;
 
     @ApiModelProperty(value = "更新时间")
-    private LocalDateTime update-time;
+    private LocalDateTime updateTime;
 
 
 }

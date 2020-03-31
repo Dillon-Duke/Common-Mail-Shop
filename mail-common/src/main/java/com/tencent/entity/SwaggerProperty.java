@@ -11,21 +11,21 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = "swagger2")
 public class SwaggerProperty {
-    /** 需要扫描的包 */
+    /** 扫描基本包 */
     private String basePackage;
-    /** 联系人姓名 */
+    /** 鑱旂郴浜哄鍚� */
     private String name;
-    /** 联系人主页 */
+    /** 鑱旂郴浜轰富椤� */
     private String url;
-    /** 联系人邮箱 */
+    /** 鑱旂郴浜洪偖绠� */
     private String email;
-    /** 项目标题 */
+    /** 椤圭洰鏍囬 */
     private String title;
-    /** 项目介绍 */
+    /** 椤圭洰浠嬬粛 */
     private String destription;
-    /** 项目服务团队 */
+    /** 椤圭洰鏈嶅姟鍥㈤槦 */
     private String termOfServiceUrl;
-    /** 项目的授权信息 */
+    /** 椤圭洰鐨勬巿鏉冧俊鎭� */
     private String license;
 
     public SwaggerProperty() {

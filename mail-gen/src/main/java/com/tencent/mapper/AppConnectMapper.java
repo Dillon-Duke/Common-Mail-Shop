@@ -1,7 +1,7 @@
 package com.tencent.mapper;
 
-import com.tencent.entity.AppConnect;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.tencent.entity.notuse.AppConnect;
 
 /**
  * <p>

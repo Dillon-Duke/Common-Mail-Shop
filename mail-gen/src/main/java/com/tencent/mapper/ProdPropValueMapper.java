@@ -1,7 +1,7 @@
 package com.tencent.mapper;
 
-import com.tencent.entity.Prod-propValue;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.tencent.entity.notuse.ProdPropValue;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author jinpeng
  * @since 2020-03-25
  */
-public interface Prod-propValueMapper extends BaseMapper<Prod-propValue> {
+public interface ProdPropValueMapper extends BaseMapper<ProdPropValue> {
 
 }

@@ -30,7 +30,7 @@ public class PointsWallet implements Serializable {
     private Long pointsWalletId;
 
     @ApiModelProperty(value = "积分Id")
-    private Long points-id;
+    private Long pointsId;
 
     @ApiModelProperty(value = "用户id")
     private String userId;

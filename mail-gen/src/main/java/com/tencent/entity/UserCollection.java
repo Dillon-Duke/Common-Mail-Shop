@@ -31,7 +31,7 @@ public class UserCollection implements Serializable {
     private Long id;
 
     @ApiModelProperty(value = "商品id")
-    private Long prod-id;
+    private Long prodId;
 
     @ApiModelProperty(value = "用户id")
     private String userId;

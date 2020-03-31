@@ -29,7 +29,7 @@ public class OrderSettlement implements Serializable {
 
     @ApiModelProperty(value = "支付结算单据ID")
     @TableId(value = "settlement-id", type = IdType.AUTO)
-    private Long settlement-id;
+    private Long settlementId;
 
     @ApiModelProperty(value = "支付单号")
     private String payNo;

@@ -1,9 +1,11 @@
 package com.tencent.entity;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
+
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.io.Serializable;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -73,7 +75,7 @@ public class OrderRefund implements Serializable {
     private Integer applyType;
 
     @ApiModelProperty(value = "处理状态:1为待审核,2为同意,3为不同意")
-    private Integer refund-sts;
+    private Integer refundSts;
 
     @ApiModelProperty(value = "处理退款状态: 0:退款处理中 1:退款成功 -1:退款失败")
     private Integer returnMoneySts;
@@ -82,10 +84,10 @@ public class OrderRefund implements Serializable {
     private BigDecimal applyTime;
 
     @ApiModelProperty(value = "卖家处理时间")
-    private BigDecimal handel-time;
+    private BigDecimal handelTime;
 
     @ApiModelProperty(value = "退款时间")
-    private BigDecimal refund-time;
+    private BigDecimal refundTime;
 
     @ApiModelProperty(value = "文件凭证json")
     private String photoFiles;

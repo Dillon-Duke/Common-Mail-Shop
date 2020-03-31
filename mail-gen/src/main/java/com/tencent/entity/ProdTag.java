@@ -43,7 +43,7 @@ public class ProdTag implements Serializable {
     private Integer isDefault;
 
     @ApiModelProperty(value = "商品数量")
-    private Integer prod-count;
+    private Integer prodCount;
 
     @ApiModelProperty(value = "列表样式(0:一列一个,1:一列两个,2:一列三个)")
     private Integer style;

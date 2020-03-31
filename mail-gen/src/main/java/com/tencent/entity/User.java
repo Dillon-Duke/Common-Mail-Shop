@@ -1,9 +1,11 @@
 package com.tencent.entity;
 
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
-import java.io.Serializable;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -34,7 +36,7 @@ public class User implements Serializable {
     private String userId;
 
     @ApiModelProperty(value = "用户昵称")
-    private String nick-name;
+    private String nickName;
 
     @ApiModelProperty(value = "真实姓名")
     private String realName;
@@ -73,7 +75,7 @@ public class User implements Serializable {
     private String sex;
 
     @ApiModelProperty(value = "例如：2009-11-27")
-    private String birth-date;
+    private String birthDate;
 
     @ApiModelProperty(value = "头像图片路径")
     private String pic;

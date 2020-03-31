@@ -30,13 +30,13 @@ public class ProdProp implements Serializable {
     private Long propId;
 
     @ApiModelProperty(value = "属性名称")
-    private String prop-name;
+    private String propName;
 
     @ApiModelProperty(value = "ProdPropRule 1:销售属性(规格); 2:参数属性;")
     private Integer rule;
 
     @ApiModelProperty(value = "店铺id")
-    private Long shop-id;
+    private Long shopId;
 
 
 }

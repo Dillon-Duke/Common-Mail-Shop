@@ -29,7 +29,7 @@ public class HibernateSequence implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
-    private Long next-val;
+    private Long nextVal;
 
 
 }

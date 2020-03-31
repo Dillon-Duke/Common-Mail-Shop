@@ -31,7 +31,7 @@ public class RodCompareTest implements Serializable {
     private Long id;
 
     @ApiModelProperty(value = "商品名称")
-    private String prod-name;
+    private String prodName;
 
     @ApiModelProperty(value = "店铺id")
     private Long shopId;

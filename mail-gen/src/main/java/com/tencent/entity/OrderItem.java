@@ -36,7 +36,7 @@ public class OrderItem implements Serializable {
     private Long shopId;
 
     @ApiModelProperty(value = "订单order_number")
-    private String order-number;
+    private String orderNumber;
 
     @ApiModelProperty(value = "产品ID")
     private Long prodId;
@@ -75,7 +75,7 @@ public class OrderItem implements Serializable {
     private String distributionCardNo;
 
     @ApiModelProperty(value = "加入购物车时间")
-    private LocalDateTime basket-date;
+    private LocalDateTime basketDate;
 
 
 }

@@ -1,6 +1,6 @@
 package com.tencent.mapper;
 
-import com.tencent.entity.Area;
+import com.tencent.entity.notuse.Area;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
